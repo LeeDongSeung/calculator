@@ -44,7 +44,7 @@ int add(int a, int b)
 int sub(int a, int b)
 {
 	//TODO implementation
-	return a-b;
+	return 0;
 }
  
 int multi(int a, int b)
