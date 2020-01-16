@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
 	}
 	
 	printf("result is %d.\n", c);
-	
+	printf("hoho");
 	return 0;
 }
  
