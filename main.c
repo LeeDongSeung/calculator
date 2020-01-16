@@ -55,5 +55,9 @@ int multi(int a, int b)
 int div(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	if(b==0) {
+		printf("0으로 나눌 수 없습니다.");
+		return -1
+	}
+	return a/b;
 }
