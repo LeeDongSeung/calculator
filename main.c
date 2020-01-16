@@ -27,6 +27,7 @@ int main(int argc, char* argv[])
 		case '/':
 			c = div(a, b);
 			break;
+		default:break;
 	}
 	
 	printf("result is %d.\n", c);
