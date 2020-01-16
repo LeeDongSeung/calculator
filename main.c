@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	int a, b, c;
 	char operator;
 	
-	printf("수식을 입력해주세요!!!!!!!!!!: ");
+	printf("Please enter a expression!!!!!!!!!!!!!!!");
 	scanf("%d %c %d", &a, &operator, &b);
 	
 	switch (operator)
@@ -55,9 +55,5 @@ int multi(int a, int b)
 int div(int a, int b)
 {
 	//TODO implementation
-	if(b==0) {
-		printf("0으로 나눌 수 없습니다.");
-		return -1
-	}
-	return a/b;
+	return 0;
 }
